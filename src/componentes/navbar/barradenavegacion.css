@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around; 
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+div.botones_navbar{
+    gap: 20px;
+    display: flex;
+}
+
+.boton_navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.boton_navbar:hover {
+opacity: 0.8;
+background-color: rgb(44, 44, 44);
+}
+
+
+
+
+
