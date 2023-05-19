@@ -1,0 +1,13 @@
+.card_product {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 20px;
+    height: 300px;
+    width: 200px;
+    flex-direction: column;
+}
+
+.img_product img {
+    height: 180px;
+    width: 120px;
+}

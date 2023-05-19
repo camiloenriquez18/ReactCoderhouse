@@ -1,8 +1,12 @@
-import cart from "../assets/cart.svg"
+
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+
 const Childkart = () => {
 return (
 <div class="div_kart">
-    <img className="cart" src={cart} alt="cart"/>
+    <FontAwesomeIcon icon={faCartShopping} style={{color: "#ffffff",}} />    
     <h6>0</h6>
 </div>
 )

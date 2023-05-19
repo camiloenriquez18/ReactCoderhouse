@@ -1,0 +1,26 @@
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controles{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.buton{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.buton:hover{
+    background-color: rgb(27, 27, 27);
+}
+
+.buttons_controles{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
